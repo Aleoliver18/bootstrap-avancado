@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #fff;
+}
+
+header {
+    background-color: #23252b;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo-home {
+    height: 40px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.carousel > .carousel-inner > .carousel-item > img {
+    height: 95vh;
+    width: 100%;
+}
+
+.card-img {
+    height: 50vh;
+}
+
+.hide {
+    display: none;
+}
+
+.card:hover .hide {
+    display: block;
+}
+
+.card-img-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+
+
+
+
+
+

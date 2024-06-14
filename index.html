@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="#">
+                    <img src="img/logo-site.webp" alt="#" class="logo-home">
+                </a>
+                <button type="button" class="navbar navbar-toggler navbar-dark" data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav nav-pills navbar-nav">
+                        <li class="nav-item">
+                            <a href="#lancamentos" class="nav-link">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#populares" class="nav-link">Populares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recomendacoes" class="nav-link">Recomendações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                    <path fill-rule="evenodd"
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel-exemplo">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/one-piece-carrousel.png" alt="#">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/duke-carrousel.png" alt="#">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/grandpa-carrousel.png" alt="#">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/kimetsu-carrousel.png" alt="#">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/mushoku-carrosel.png" alt="#">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/vampire-dormitory-carriusel.png" alt="#">
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="5"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="lancamentos">
+            <h1 class="text-center p-3">Lançamentos</h1>
+        </section>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/01.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">TSUKIMICHI - Moonlit Fantasy</h5>
+                        <p class="hide card-text">Makoto Misumi era um adolescente qualquer até ser invocado para ser o
+                            "herói" de outro mundo...Conseguirá Makoto sobreviver neste mundo novo cheio de perigos?
+                            Assim começa esta fantasia sobre um rapaz abandonado pelos deuses e pela humanidade,
+                            tentando começar uma nova vida em outro mundo!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/02.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">Solo Leveling</h5>
+                        <p class="hide card-text">Sung Jinwoo, um caçador de nível baixo, é considerado o caçador mais
+                            fraco de toda a humanidade. Certo dia, ele se depara com uma "masmorra dupla", que tem uma
+                            masmorra de nível alto escondida dentro de uma masmorra de nível baixo. Diante de um Jinwoo
+                            gravemente ferido, surge uma misteriosa missão! À beira da morte, Jinwoo decide aceitar essa
+                            missão, tornando-se assim a única pessoa capaz de subir de nível!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/03.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">ONE PIECE</h5>
+                        <p class="hide card-text">Houve um homem que conquistou tudo aquilo que o mundo tinha a
+                            oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo
+                            Governo Mundial, suas últimas palavras lançaram legiões aos mares. "Meu tesouro? Se
+                            quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!".
+                            Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando
+                            com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/04.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">TSUKIMICHI - Moonlit Fantasy</h5>
+                        <p class="hide card-text">Makoto Misumi era um adolescente qualquer até ser invocado para ser o
+                            "herói" de outro mundo...Conseguirá Makoto sobreviver neste mundo novo cheio de perigos?
+                            Assim começa esta fantasia sobre um rapaz abandonado pelos deuses e pela humanidade,
+                            tentando começar uma nova vida em outro mundo!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/05.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">Solo Leveling</h5>
+                        <p class="hide card-text">Sung Jinwoo, um caçador de nível baixo, é considerado o caçador mais
+                            fraco de toda a humanidade. Certo dia, ele se depara com uma "masmorra dupla", que tem uma
+                            masmorra de nível alto escondida dentro de uma masmorra de nível baixo. Diante de um Jinwoo
+                            gravemente ferido, surge uma misteriosa missão! À beira da morte, Jinwoo decide aceitar essa
+                            missão, tornando-se assim a única pessoa capaz de subir de nível!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/06.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">ONE PIECE</h5>
+                        <p class="hide card-text">Houve um homem que conquistou tudo aquilo que o mundo tinha a
+                            oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo
+                            Governo Mundial, suas últimas palavras lançaram legiões aos mares. "Meu tesouro? Se
+                            quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!".
+                            Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando
+                            com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="populares">
+            <h1 class="text-center p-3">Populares</h1>
+        </section>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/07.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">TSUKIMICHI - Moonlit Fantasy</h5>
+                        <p class="hide card-text">Makoto Misumi era um adolescente qualquer até ser invocado para ser o
+                            "herói" de outro mundo...Conseguirá Makoto sobreviver neste mundo novo cheio de perigos?
+                            Assim começa esta fantasia sobre um rapaz abandonado pelos deuses e pela humanidade,
+                            tentando começar uma nova vida em outro mundo!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/08.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">Solo Leveling</h5>
+                        <p class="hide card-text">Sung Jinwoo, um caçador de nível baixo, é considerado o caçador mais
+                            fraco de toda a humanidade. Certo dia, ele se depara com uma "masmorra dupla", que tem uma
+                            masmorra de nível alto escondida dentro de uma masmorra de nível baixo. Diante de um Jinwoo
+                            gravemente ferido, surge uma misteriosa missão! À beira da morte, Jinwoo decide aceitar essa
+                            missão, tornando-se assim a única pessoa capaz de subir de nível!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/03.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">ONE PIECE</h5>
+                        <p class="hide card-text">Houve um homem que conquistou tudo aquilo que o mundo tinha a
+                            oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo
+                            Governo Mundial, suas últimas palavras lançaram legiões aos mares. "Meu tesouro? Se
+                            quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!".
+                            Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando
+                            com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/01.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">TSUKIMICHI - Moonlit Fantasy</h5>
+                        <p class="hide card-text">Makoto Misumi era um adolescente qualquer até ser invocado para ser o
+                            "herói" de outro mundo...Conseguirá Makoto sobreviver neste mundo novo cheio de perigos?
+                            Assim começa esta fantasia sobre um rapaz abandonado pelos deuses e pela humanidade,
+                            tentando começar uma nova vida em outro mundo!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/02.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">Solo Leveling</h5>
+                        <p class="hide card-text">Sung Jinwoo, um caçador de nível baixo, é considerado o caçador mais
+                            fraco de toda a humanidade. Certo dia, ele se depara com uma "masmorra dupla", que tem uma
+                            masmorra de nível alto escondida dentro de uma masmorra de nível baixo. Diante de um Jinwoo
+                            gravemente ferido, surge uma misteriosa missão! À beira da morte, Jinwoo decide aceitar essa
+                            missão, tornando-se assim a única pessoa capaz de subir de nível!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/03.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">ONE PIECE</h5>
+                        <p class="hide card-text">Houve um homem que conquistou tudo aquilo que o mundo tinha a
+                            oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo
+                            Governo Mundial, suas últimas palavras lançaram legiões aos mares. "Meu tesouro? Se
+                            quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!".
+                            Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando
+                            com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="recomendacoes">
+            <h1 class="text-center p-3">Recomendações</h1>
+        </section>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/01.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">TSUKIMICHI - Moonlit Fantasy</h5>
+                        <p class="hide card-text">Makoto Misumi era um adolescente qualquer até ser invocado para ser o
+                            "herói" de outro mundo...Conseguirá Makoto sobreviver neste mundo novo cheio de perigos?
+                            Assim começa esta fantasia sobre um rapaz abandonado pelos deuses e pela humanidade,
+                            tentando começar uma nova vida em outro mundo!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/02.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">Solo Leveling</h5>
+                        <p class="hide card-text">Sung Jinwoo, um caçador de nível baixo, é considerado o caçador mais
+                            fraco de toda a humanidade. Certo dia, ele se depara com uma "masmorra dupla", que tem uma
+                            masmorra de nível alto escondida dentro de uma masmorra de nível baixo. Diante de um Jinwoo
+                            gravemente ferido, surge uma misteriosa missão! À beira da morte, Jinwoo decide aceitar essa
+                            missão, tornando-se assim a única pessoa capaz de subir de nível!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/03.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">ONE PIECE</h5>
+                        <p class="hide card-text">Houve um homem que conquistou tudo aquilo que o mundo tinha a
+                            oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo
+                            Governo Mundial, suas últimas palavras lançaram legiões aos mares. "Meu tesouro? Se
+                            quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!".
+                            Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando
+                            com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/01.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">TSUKIMICHI - Moonlit Fantasy</h5>
+                        <p class="hide card-text">Makoto Misumi era um adolescente qualquer até ser invocado para ser o
+                            "herói" de outro mundo...Conseguirá Makoto sobreviver neste mundo novo cheio de perigos?
+                            Assim começa esta fantasia sobre um rapaz abandonado pelos deuses e pela humanidade,
+                            tentando começar uma nova vida em outro mundo!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/02.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">Solo Leveling</h5>
+                        <p class="hide card-text">Sung Jinwoo, um caçador de nível baixo, é considerado o caçador mais
+                            fraco de toda a humanidade. Certo dia, ele se depara com uma "masmorra dupla", que tem uma
+                            masmorra de nível alto escondida dentro de uma masmorra de nível baixo. Diante de um Jinwoo
+                            gravemente ferido, surge uma misteriosa missão! À beira da morte, Jinwoo decide aceitar essa
+                            missão, tornando-se assim a única pessoa capaz de subir de nível!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 p-3">
+                <div class="card text-bg-dark">
+                    <img src="img/recomendações/03.jpe" alt="#" class="card-img">
+                    <div class="card-img-overlay">
+                        <h5 class="hide card-title text-center">ONE PIECE</h5>
+                        <p class="hide card-text">Houve um homem que conquistou tudo aquilo que o mundo tinha a
+                            oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo
+                            Governo Mundial, suas últimas palavras lançaram legiões aos mares. "Meu tesouro? Se
+                            quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!".
+                            Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando
+                            com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!</p>
+                        <a href="#" class="btn btn-primary hide">Assistir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
